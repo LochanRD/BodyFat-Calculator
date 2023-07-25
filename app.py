@@ -6,6 +6,7 @@ from sklearn.svm import SVR
 from PIL import Image
 
 model = joblib.load('SVR_classifier_bf%.joblib')
+# model = 0
 
 st.title('Body Fat% Calculator :weight_lifter:')
 
